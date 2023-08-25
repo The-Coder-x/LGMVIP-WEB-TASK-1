@@ -64,7 +64,7 @@ const TODO = () => {
               overflow={'auto'}
               key={idx}
             >
-              <Text>{ele}</Text>
+              <Text>{idx+1}.{ele}</Text>
               <Button
                 width="90%"
                 height="2.2rem"
